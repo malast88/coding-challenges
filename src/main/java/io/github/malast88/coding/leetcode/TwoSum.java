@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class TwoSum {
     /**
-     * Solution for Leetcode problem "TwoSum" https://leetcode.com/problems/two-sum/ .
+     * Solution for Leetcode problem "Two Sum" https://leetcode.com/problems/two-sum/ .
      *
      * @param nums array of integers
      * @param target target sum
