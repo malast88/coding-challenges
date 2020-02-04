@@ -24,6 +24,7 @@ My solutions for coding challenges and puzzles.
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- | ---- |
 | LC0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/ReverseInteger.java) | _O(1)_ | _O(1)_ | Easy | There is overflow after multiplication of the number by 10, if the result of the multiplication, divided by 10, does not equal to this number. |
 | LC0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/PalindromeNumber.java) | _O(1)_ | _O(1)_ | Easy | Reverse the number and compare with itself. Overflow check is the same a in the "Reverse Integer" problem. |
+| LC0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/RomanToInteger.java) | _O(N)_ | _O(1)_ | Easy | Save the previous value so no need to look forward when iterating the string. |
 
 ### Hash Table
 
