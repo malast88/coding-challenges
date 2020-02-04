@@ -17,6 +17,7 @@ My solutions for coding challenges and puzzles.
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Note | 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- | ---- |
 | LC0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/TwoSum.java) | _O(n)_ | _O(n)_ | Easy | [Space-time tradeoff](https://en.wikipedia.org/wiki/Space%E2%80%93time_tradeoff). Brute force inner iteration solution requires _O(n^2)_ time and _O(1)_ space. |
+| LC0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/LongestCommonPrefix.java) | _O(n*m)_ | _O(1)_ | Easy | No way to avoid potentially iterating over all characters of the all string. |
 
 ### Math
 
@@ -31,3 +32,4 @@ My solutions for coding challenges and puzzles.
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Note | 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- | ---- |
 | LC0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/TwoSum.java) | _O(n)_ | _O(n)_ | Easy | [Space-time tradeoff](https://en.wikipedia.org/wiki/Space%E2%80%93time_tradeoff). Brute force inner iteration solution requires _O(n^2)_ time and _O(1)_ space. |
+
