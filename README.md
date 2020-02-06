@@ -11,6 +11,7 @@ My solutions for coding challenges and puzzles.
 
 ## Data structures
 * [Hash Table](https://github.com/malast88/coding-challenges#hash-table)
+* [Stack](https://github.com/malast88/coding-challenges#stack)
 
 ### Array
 
@@ -32,4 +33,10 @@ My solutions for coding challenges and puzzles.
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Note | 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- | ---- |
 | LC0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/TwoSum.java) | _O(n)_ | _O(n)_ | Easy | [Space-time tradeoff](https://en.wikipedia.org/wiki/Space%E2%80%93time_tradeoff). Brute force inner iteration solution requires _O(n^2)_ time and _O(1)_ space. |
+
+### Stack
+
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Note | 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- | ---- |
+| LC0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/ValidParentheses.java) | _O(n)_ | _O(n)_ | Easy | Sonar recognizes direct usage of Stack class as a performance issue in the code and recommends to use Deque instead |
 
