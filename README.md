@@ -11,6 +11,7 @@ My solutions for coding challenges and puzzles.
 
 ## Data structures
 * [Hash Table](https://github.com/malast88/coding-challenges#hash-table)
+* [Linked List](https://github.com/malast88/coding-challenges#linked-list)
 * [Stack](https://github.com/malast88/coding-challenges#stack)
 
 ### Array
@@ -33,6 +34,12 @@ My solutions for coding challenges and puzzles.
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Note | 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- | ---- |
 | LC0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/TwoSum.java) | _O(n)_ | _O(n)_ | Easy | [Space-time tradeoff](https://en.wikipedia.org/wiki/Space%E2%80%93time_tradeoff). Brute force inner iteration solution requires _O(n^2)_ time and _O(1)_ space. |
+
+### Linked List
+
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Note | 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- | ---- |
+| LC0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/MergeTwoSortedLists.java) | _O(n)_ | _O(1)_ | Easy | Compose the result iteratively from the first node with the lower value from both lists. |
 
 ### Stack
 
