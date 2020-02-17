@@ -7,6 +7,7 @@ My solutions for coding challenges and puzzles.
 
 ## Algorithms
 * [Array](https://github.com/malast88/coding-challenges#array)
+* [Binary search](https://github.com/malast88/coding-challenges#binary-search)
 * [Math](https://github.com/malast88/coding-challenges#math)
 * [String searching](https://github.com/malast88/coding-challenges#string-searching)
 
@@ -23,6 +24,12 @@ My solutions for coding challenges and puzzles.
 | LC0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/LongestCommonPrefix.java) | _O(n*m)_ | _O(1)_ | Easy | No way to avoid potentially iterating over all characters of the all string. |
 | LC0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/RemoveDuplicatesFromSortedArray.java) | _O(n)_ | _O(1)_ | Easy | Use two indices - one pointing to the end of the new array and another to iterate over the array. |
 | LC0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/RemoveElement.java) | _O(n)_ | _O(1)_ | Easy | Use two indices - one pointing to the end of the new array and another to iterate over the array. |
+
+### Binary search
+
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Note | 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- | ---- |
+| LC0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SearchInsertPosition.java) | _O(log(n))_ | _O(1)_ | Easy | Whatever position found by the binary search, the target is either bigger than the element on it, so next position, or less or equal, so the same position. |
 
 ### Math
 
