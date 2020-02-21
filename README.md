@@ -25,6 +25,8 @@ My solutions for coding challenges and puzzles.
 | LC0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/RemoveDuplicatesFromSortedArray.java) | _O(n)_ | _O(1)_ | Easy | Use two indices - one pointing to the end of the new array and another to iterate over the array. |
 | LC0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/RemoveElement.java) | _O(n)_ | _O(1)_ | Easy | Use two indices - one pointing to the end of the new array and another to iterate over the array. |
 | LC0038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/CountAndSay.java) | _O(2^n)_ | _O(2^n)_ | Easy | Use two pointers. |
+| LC0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/MaximumSubarray.java) | _O(n)_ | _O(1)_ | Easy | Use [Kadane's algorithm](https://en.wikipedia.org/wiki/Maximum_subarray_problem#Kadane's_algorithm)] (sequantally sum up elements of the array but throw the current sum and start from the current element if it is better to do it). |
+| LC0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/LengthOfLastWord.java) | _O(n)_ | _O(1)_ | Easy | Iterate over the string from the end. |
 
 ### Binary search
 
