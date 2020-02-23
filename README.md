@@ -35,6 +35,7 @@ My solutions for coding challenges and puzzles.
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Note | 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- | ---- |
 | LC0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SearchInsertPosition.java) | _O(log(n))_ | _O(1)_ | Easy | Whatever position found by the binary search, the target is either bigger than the element on it, so next position, or less or equal, so the same position. |
+| LC0069 | [Sqrt X](https://leetcode.com/problems/sqrtx/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SqrtX.java) | _O(1)_ | _O(1)_ | Easy | |
 
 ### Math
 
