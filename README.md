@@ -27,12 +27,15 @@ My solutions for coding challenges and puzzles.
 | LC0038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/CountAndSay.java) | _O(2^n)_ | _O(2^n)_ | Easy | Use two pointers. |
 | LC0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/MaximumSubarray.java) | _O(n)_ | _O(1)_ | Easy | Use [Kadane's algorithm](https://en.wikipedia.org/wiki/Maximum_subarray_problem#Kadane's_algorithm)] (sequantally sum up elements of the array but throw the current sum and start from the current element if it is better to do it). |
 | LC0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/LengthOfLastWord.java) | _O(n)_ | _O(1)_ | Easy | Iterate over the string from the end. |
+| LC0066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/PlusOne.java) | _O(n)_ | _O(n)_ | Easy | Iterate over the array from the end, mark overflow. |
+| LC0067 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/AddBinary.java) | _O(n)_ | _O(n)_ | Easy | Iterate over the array from the end, count overflow. |
 
 ### Binary search
 
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Note | 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- | ---- |
 | LC0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SearchInsertPosition.java) | _O(log(n))_ | _O(1)_ | Easy | Whatever position found by the binary search, the target is either bigger than the element on it, so next position, or less or equal, so the same position. |
+| LC0069 | [Sqrt X](https://leetcode.com/problems/sqrtx/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SqrtX.java) | _O(1)_ | _O(1)_ | Easy | |
 
 ### Math
 
@@ -40,7 +43,8 @@ My solutions for coding challenges and puzzles.
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- | ---- |
 | LC0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/ReverseInteger.java) | _O(1)_ | _O(1)_ | Easy | There is overflow after multiplication of the number by 10, if the result of the multiplication, divided by 10, does not equal to this number. |
 | LC0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/PalindromeNumber.java) | _O(1)_ | _O(1)_ | Easy | Reverse the number and compare with itself. Overflow check is the same a in the "Reverse Integer" problem. |
-| LC0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/RomanToInteger.java) | _O(N)_ | _O(1)_ | Easy | Save the previous value so no need to look forward when iterating the string. |
+| LC0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/RomanToInteger.java) | _O(n)_ | _O(1)_ | Easy | Save the previous value so no need to look forward when iterating the string. |
+| LC0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/ClimbingStairs.java) | _O(n)_ | _O(1)_ | Easy | Fibonacci sequence. |
 
 ### String searching
 
