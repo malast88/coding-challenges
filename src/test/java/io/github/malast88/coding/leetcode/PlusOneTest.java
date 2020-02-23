@@ -9,7 +9,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 public class PlusOneTest {
 
-  private static Stream<Arguments> geCountAndSayArgs() {
+  private static Stream<Arguments> gePlusOneArgs() {
     return Stream.of(
         Arguments.of(new int[] {0}, new int[] {1}),
         Arguments.of(new int[] {1, 2, 3, 4}, new int[] {1, 2, 3, 5}),
@@ -19,8 +19,8 @@ public class PlusOneTest {
   }
 
   @ParameterizedTest
-  @MethodSource("geCountAndSayArgs")
-  public void itShouldCountAndSay(int[] digits, int[] expected) {
+  @MethodSource("gePlusOneArgs")
+  public void itShouldPlusOne(int[] digits, int[] expected) {
     // arrange
     PlusOne sut = new PlusOne();
 
