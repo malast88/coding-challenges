@@ -29,6 +29,7 @@ My solutions for coding challenges and puzzles.
 | LC0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/LengthOfLastWord.java) | _O(n)_ | _O(1)_ | Easy | Iterate over the string from the end. |
 | LC0066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/PlusOne.java) | _O(n)_ | _O(n)_ | Easy | Iterate over the array from the end, mark overflow. |
 | LC0067 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/AddBinary.java) | _O(n)_ | _O(n)_ | Easy | Iterate over the array from the end, count overflow. |
+| LC0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/MergeSortedArray.java) | _O(n)_ | _O(1)_ | Easy | Iterate over the arrays from the end, track destination position from the end |
 
 ### Binary search
 

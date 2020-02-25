@@ -2,7 +2,8 @@ package io.github.malast88.coding.leetcode;
 
 public class RemoveDuplicatesFromSortedList {
   /**
-   * Solution for Leetcode problem "Remove Duplicates from Sorted List" https://leetcode.com/problems/remove-duplicates-from-sorted-list/ .
+   * Solution for Leetcode problem "Remove Duplicates from Sorted List"
+   * https://leetcode.com/problems/remove-duplicates-from-sorted-list/ .
    *
    * @param head head of the input list
    * @return {@param head} of the list without duplicates
