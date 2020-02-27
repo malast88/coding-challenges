@@ -73,7 +73,8 @@ There are many [String searching algorithms](https://en.wikipedia.org/wiki/Strin
 
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Note | 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- | ---- |
-| LC0100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/MergeTwoSortedLists.java) | _O(n)_ | _O(n)_ | Easy | |
+| LC0100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SameTree.java) | _O(n)_ | _O(n)_ | Easy | |
+| LC0101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SymmetricTree.java) | _O(n)_ | _O(n)_ | Easy | |
 
 ### Stack
 
