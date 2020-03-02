@@ -14,7 +14,10 @@ public class SymmetricTreeTest {
     return Stream.of(
         Arguments.of(build(), true),
         Arguments.of(build(1, 2, 2), true),
-        Arguments.of(build(1, 2, 2, 3), false));
+        Arguments.of(build(1, 2, 3), false),
+        Arguments.of(build(1, 2, 2, 3), false),
+        Arguments.of(build(1, 2, 2, null, null, null, 3), false),
+        Arguments.of(build(1, 2, 2, 3, 4, null, 3), false));
   }
 
   @ParameterizedTest
