@@ -14,6 +14,7 @@ My solutions for coding challenges and puzzles.
 ## Data structures
 * [Hash Table](https://github.com/malast88/coding-challenges#hash-table)
 * [Linked List](https://github.com/malast88/coding-challenges#linked-list)
+* [Binary Tree](https://github.com/malast88/coding-challenges#binary-tree)
 * [Stack](https://github.com/malast88/coding-challenges#stack)
 
 ### Array
@@ -29,6 +30,7 @@ My solutions for coding challenges and puzzles.
 | LC0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/LengthOfLastWord.java) | _O(n)_ | _O(1)_ | Easy | Iterate over the string from the end. |
 | LC0066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/PlusOne.java) | _O(n)_ | _O(n)_ | Easy | Iterate over the array from the end, mark overflow. |
 | LC0067 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/AddBinary.java) | _O(n)_ | _O(n)_ | Easy | Iterate over the array from the end, count overflow. |
+| LC0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/MergeSortedArray.java) | _O(n)_ | _O(1)_ | Easy | Iterate over the arrays from the end, track destination position from the end |
 
 ### Binary search
 
@@ -65,6 +67,14 @@ There are many [String searching algorithms](https://en.wikipedia.org/wiki/Strin
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Note | 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- | ---- |
 | LC0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/MergeTwoSortedLists.java) | _O(n)_ | _O(1)_ | Easy | Compose the result iteratively from the first node with the lower value from both lists. |
+| LC0083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/RemoveDuplicatesFromSortedList.java) | _O(n)_ | _O(1)_ | Easy | |
+
+### Binary Tree
+
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Note | 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- | ---- |
+| LC0100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SameTree.java) | _O(n)_ | _O(n)_ | Easy | |
+| LC0101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SymmetricTree.java) | _O(n)_ | _O(n)_ | Easy | |
 
 ### Stack
 
