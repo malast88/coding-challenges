@@ -77,6 +77,7 @@ There are many [String searching algorithms](https://en.wikipedia.org/wiki/Strin
 | LC0101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SymmetricTree.java) | _O(n)_ | _O(n)_ | Easy | |
 | LC0107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/BinaryTreeLevelOrderTraversal2.java) | _O(n)_ | _O(n)_ | Easy | |
 | LC0108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/ConvertSortedArrayToBinarySearchTree.java) | _O(log(n))_ | _O(n)_ | Easy | |
+| LC0110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/BalancedBinaryTree.java) | _O(n)_ | _O(n)_ | Easy | |
 
 ### Stack
 
