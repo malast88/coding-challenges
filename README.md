@@ -33,6 +33,7 @@ My solutions for coding challenges and puzzles.
 | LC0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/MergeSortedArray.java) | _O(n)_ | _O(1)_ | Easy | Iterate over the arrays from the end, track destination position from the end |
 | LC0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/PascalsTriangle.java) | _O(n^2)_ | _O(n^2)_ | Easy | |
 | LC0119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/PascalsTriangle2.java) | _O(n^2)_ | _O(n)_ | Easy | |
+| LC0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/PascalsTriangle2.java) | _O(n)_ | _O(1)_ | Easy | The resulting transaction should buy for the minimum possible price and sell for the next maximum price. |
 
 ### Binary search
 
