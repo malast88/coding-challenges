@@ -13,7 +13,7 @@ public class SameTree {
    *
    * _Complexity - O(n)
    *
-   * _Space - O(n)_ (needs stack to traverse the tree)
+   * _Space - O(log(n))_ (needs stack to traverse the tree)
    */
   public boolean isSameTree(TreeNode p, TreeNode q) {
     if (p == null && q == null) {

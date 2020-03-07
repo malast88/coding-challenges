@@ -13,7 +13,7 @@ public class BalancedBinaryTree {
    *
    * _Complexity - O(n)
    *
-   * _Space - O(n)_ (needs stack to traverse the tree)
+   * _Space - O(log(n))_ (needs stack to traverse the tree)
    */
   public boolean isBalanced(TreeNode root) {
     return getHeightAndIsBalanced(root).isBalanced;
