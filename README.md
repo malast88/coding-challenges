@@ -79,6 +79,7 @@ There are many [String searching algorithms](https://en.wikipedia.org/wiki/Strin
 | LC0108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/ConvertSortedArrayToBinarySearchTree.java) | _O(log(n))_ | _O(n)_ | Easy | |
 | LC0110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/BalancedBinaryTree.java) | _O(n)_ | _O(log(n))_ | Easy | |
 | LC0111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/MinimumDepthOfBinaryTree.java) | _O(n)_ | _O(log(n))_ | Easy | |
+| LC0112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/PathSum.java) | _O(n)_ | _O(log(n))_ | Easy | |
 
 ### Stack
 
