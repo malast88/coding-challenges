@@ -31,6 +31,7 @@ My solutions for coding challenges and puzzles.
 | LC0066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/PlusOne.java) | _O(n)_ | _O(n)_ | Easy | Iterate over the array from the end, mark overflow. |
 | LC0067 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/AddBinary.java) | _O(n)_ | _O(n)_ | Easy | Iterate over the array from the end, count overflow. |
 | LC0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/MergeSortedArray.java) | _O(n)_ | _O(1)_ | Easy | Iterate over the arrays from the end, track destination position from the end |
+| LC0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/PascalsTriangle.java) | _O(n)_ | _O(1)_ | Easy | |
 
 ### Binary search
 

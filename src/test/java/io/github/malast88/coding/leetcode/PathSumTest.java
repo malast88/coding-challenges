@@ -10,7 +10,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 public class PathSumTest {
 
-  private static Stream<Arguments> getIsSameTreeArgs() {
+  private static Stream<Arguments> getPathSumArgs() {
     return Stream.of(
         Arguments.of(build(), 0, false),
         Arguments.of(build(1, 2, 3), 4, true),
@@ -21,8 +21,8 @@ public class PathSumTest {
   }
 
   @ParameterizedTest
-  @MethodSource("getIsSameTreeArgs")
-  public void itShouldAnswerIfTreesAreTheSame(TreeNode root, int sum, boolean expected) {
+  @MethodSource("getPathSumArgs")
+  public void itShouldAnswerIfTreeHasPathSum(TreeNode root, int sum, boolean expected) {
     // arrange
     PathSum sut = new PathSum();
 
