@@ -15,9 +15,9 @@ public class PascalsTriangle {
   /*
    * # Solution
    *
-   * _Complexity - O(n)
+   * _Complexity - O(n^2)
    *
-   * _Space - O(n)_
+   * _Space - O(n^2)_
    */
   public List<List<Integer>> generate(int numRows) {
     List<List<Integer>> result = new ArrayList<>();
