@@ -12,7 +12,7 @@ public class SymmetricTree {
    *
    * _Complexity - O(n)
    *
-   * _Space - O(n)_ (needs stack to traverse the tree)
+   * _Space - O(log(n))_ (needs stack to traverse the tree)
    */
   public boolean isSymmetric(TreeNode root) {
     return root == null || isMirror(root.left, root.right);

@@ -8,6 +8,7 @@ My solutions for coding challenges and puzzles.
 ## Algorithms
 * [Array](https://github.com/malast88/coding-challenges#array)
 * [Binary search](https://github.com/malast88/coding-challenges#binary-search)
+* [Bitwise operations](https://github.com/malast88/coding-challenges#bitwise-operations)
 * [Math](https://github.com/malast88/coding-challenges#math)
 * [String searching](https://github.com/malast88/coding-challenges#string-searching)
 
@@ -31,6 +32,11 @@ My solutions for coding challenges and puzzles.
 | LC0066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/PlusOne.java) | _O(n)_ | _O(n)_ | Easy | Iterate over the array from the end, mark overflow. |
 | LC0067 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/AddBinary.java) | _O(n)_ | _O(n)_ | Easy | Iterate over the array from the end, count overflow. |
 | LC0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/MergeSortedArray.java) | _O(n)_ | _O(1)_ | Easy | Iterate over the arrays from the end, track destination position from the end |
+| LC0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/PascalsTriangle.java) | _O(n^2)_ | _O(n^2)_ | Easy | |
+| LC0119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/PascalsTriangle2.java) | _O(n^2)_ | _O(n)_ | Easy | |
+| LC0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/BestTimeToBuyAndSellStock.java) | _O(n)_ | _O(1)_ | Easy | The resulting transaction should buy for the minimum possible price and sell for the next maximum price. |
+| LC0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/BestTimeToBuyAndSellStock2.java) | _O(n)_ | _O(1)_ | Easy | The resulting value is the sum of differences between local minimums and next local maximums. |
+| LC0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/ValidPalindrome.java) | _O(n)_ | _O(1)_ | Easy | |
 
 ### Binary search
 
@@ -38,6 +44,12 @@ My solutions for coding challenges and puzzles.
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- | ---- |
 | LC0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SearchInsertPosition.java) | _O(log(n))_ | _O(1)_ | Easy | Whatever position found by the binary search, the target is either bigger than the element on it, so next position, or less or equal, so the same position. |
 | LC0069 | [Sqrt X](https://leetcode.com/problems/sqrtx/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SqrtX.java) | _O(1)_ | _O(1)_ | Easy | |
+
+### Bitwise operations
+
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Note | 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- | ---- |
+| LC0136 | [Single Number](https://leetcode.com/problems/single-number/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SingleNumber.java) | _O(n)_ | _O(1)_ | Easy | Apply XOR operation to all elements of the array. |
 
 ### Math
 
@@ -73,8 +85,13 @@ There are many [String searching algorithms](https://en.wikipedia.org/wiki/Strin
 
 |  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Note | 
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- | ---- |
-| LC0100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SameTree.java) | _O(n)_ | _O(n)_ | Easy | |
-| LC0101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SymmetricTree.java) | _O(n)_ | _O(n)_ | Easy | |
+| LC0100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SameTree.java) | _O(n)_ | _O(log(n))_ | Easy | |
+| LC0101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SymmetricTree.java) | _O(n)_ | _O(log(n))_ | Easy | |
+| LC0107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/BinaryTreeLevelOrderTraversal2.java) | _O(n)_ | _O(n)_ | Easy | |
+| LC0108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/ConvertSortedArrayToBinarySearchTree.java) | _O(log(n))_ | _O(n)_ | Easy | |
+| LC0110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/BalancedBinaryTree.java) | _O(n)_ | _O(log(n))_ | Easy | |
+| LC0111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/MinimumDepthOfBinaryTree.java) | _O(n)_ | _O(log(n))_ | Easy | |
+| LC0112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/PathSum.java) | _O(n)_ | _O(log(n))_ | Easy | |
 
 ### Stack
 
