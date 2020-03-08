@@ -8,6 +8,7 @@ My solutions for coding challenges and puzzles.
 ## Algorithms
 * [Array](https://github.com/malast88/coding-challenges#array)
 * [Binary search](https://github.com/malast88/coding-challenges#binary-search)
+* [Bitwise operations](https://github.com/malast88/coding-challenges#bitwise-operations)
 * [Math](https://github.com/malast88/coding-challenges#math)
 * [String searching](https://github.com/malast88/coding-challenges#string-searching)
 
@@ -43,6 +44,12 @@ My solutions for coding challenges and puzzles.
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- | ---- |
 | LC0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SearchInsertPosition.java) | _O(log(n))_ | _O(1)_ | Easy | Whatever position found by the binary search, the target is either bigger than the element on it, so next position, or less or equal, so the same position. |
 | LC0069 | [Sqrt X](https://leetcode.com/problems/sqrtx/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SqrtX.java) | _O(1)_ | _O(1)_ | Easy | |
+
+### Bitwise operations
+
+|  #  | Title           |  Solution       |  Time           | Space           | Difficulty    | Note | 
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- | ---- |
+| LC0136 | [Single Number](https://leetcode.com/problems/single-number/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/SingleNumber.java) | _O(n)_ | _O(1)_ | Easy | Apply XOR operation to all elements of the array. |
 
 ### Math
 
