@@ -35,6 +35,7 @@ My solutions for coding challenges and puzzles.
 | LC0119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/PascalsTriangle2.java) | _O(n^2)_ | _O(n)_ | Easy | |
 | LC0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/BestTimeToBuyAndSellStock.java) | _O(n)_ | _O(1)_ | Easy | The resulting transaction should buy for the minimum possible price and sell for the next maximum price. |
 | LC0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/BestTimeToBuyAndSellStock2.java) | _O(n)_ | _O(1)_ | Easy | The resulting value is the sum of differences between local minimums and next local maximums. |
+| LC0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Java](./src/main/java/io/github/malast88/coding/leetcode/ValidPalindrome.java) | _O(n)_ | _O(1)_ | Easy | |
 
 ### Binary search
 

@@ -19,7 +19,7 @@ public class BestTimeToBuyAndSellStock2 {
   public int maxProfit(int[] prices) {
     int sumIncreases = 0;
     int i = 0;
-    while (i < prices.length-1) {
+    while (i < prices.length - 1) {
       i = nextLocalMinimum(prices, i);
       int currentMinimum = prices[i];
       i = nextLocalMaximum(prices, i);
@@ -29,14 +29,14 @@ public class BestTimeToBuyAndSellStock2 {
   }
 
   private int nextLocalMinimum(int[] a, int currentIndex) {
-    while (currentIndex < a.length-1 && a[currentIndex] >= a[currentIndex+1]) {
+    while (currentIndex < a.length - 1 && a[currentIndex] >= a[currentIndex + 1]) {
       currentIndex++;
     }
     return currentIndex;
   }
 
   private int nextLocalMaximum(int[] a, int currentIndex) {
-    while (currentIndex < a.length-1 && a[currentIndex] <= a[currentIndex+1]) {
+    while (currentIndex < a.length - 1 && a[currentIndex] <= a[currentIndex + 1]) {
       currentIndex++;
     }
     return currentIndex;
