@@ -16,30 +16,37 @@ public class BalancedBinaryTree {
    * _Space - O(log(n))_ (needs stack to traverse the tree)
    */
   public boolean isBalanced(TreeNode root) {
-    return getHeightAndIsBalanced(root).isBalanced;
+    return getHeightAndIsBalanced(root).isBalanced();
   }
 
   private class HeightAndBalancedData {
-    public int height;
-    public boolean isBalanced;
+    private final int height;
+    private final boolean balanced;
 
-    public HeightAndBalancedData(boolean isBalanced) {
-      this.isBalanced = isBalanced;
+    public HeightAndBalancedData(boolean balanced, int height) {
+      this.balanced = balanced;
+      this.height = height;
+    }
+
+    public int getHeight() {
+      return height;
+    }
+
+    public boolean isBalanced() {
+      return balanced;
     }
   }
 
   private HeightAndBalancedData getHeightAndIsBalanced(TreeNode root) {
     if (root == null) {
-      return new HeightAndBalancedData(true);
+      return new HeightAndBalancedData(true, 0);
     }
     HeightAndBalancedData leftData = getHeightAndIsBalanced(root.left);
     HeightAndBalancedData rightData = getHeightAndIsBalanced(root.right);
-    HeightAndBalancedData result =
-        new HeightAndBalancedData(
-            leftData.isBalanced
-                && rightData.isBalanced
-                && Math.abs(leftData.height - rightData.height) <= 1);
-    result.height = Math.max(leftData.height, rightData.height) + 1;
-    return result;
+    return new HeightAndBalancedData(
+        leftData.isBalanced()
+            && rightData.isBalanced()
+            && Math.abs(leftData.getHeight() - rightData.getHeight()) <= 1,
+        Math.max(leftData.getHeight(), rightData.getHeight()) + 1);
   }
 }
