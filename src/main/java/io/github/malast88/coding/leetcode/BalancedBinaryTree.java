@@ -44,9 +44,9 @@ public class BalancedBinaryTree {
     HeightAndBalancedData leftData = getHeightAndIsBalanced(root.left);
     HeightAndBalancedData rightData = getHeightAndIsBalanced(root.right);
     return new HeightAndBalancedData(
-            leftData.isBalanced()
-                && rightData.isBalanced()
-                && Math.abs(leftData.getHeight() - rightData.getHeight()) <= 1,
-            Math.max(leftData.getHeight(), rightData.getHeight()) + 1);
+        leftData.isBalanced()
+            && rightData.isBalanced()
+            && Math.abs(leftData.getHeight() - rightData.getHeight()) <= 1,
+        Math.max(leftData.getHeight(), rightData.getHeight()) + 1);
   }
 }
